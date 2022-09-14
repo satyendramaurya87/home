@@ -1,0 +1,2230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url(//db.onlinewebfonts.com/c/3c18bedf01697f1bc265e88a5ec2884c?family=Blues+Anthem);
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    line-height: 1;
+    font-family: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+
+ul {
+    list-style: none;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+video {
+    display: block;
+}
+
+audio:not([controls]) {
+    display: none;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button,
+input {
+    border: 1px solid;
+    outline: none;
+    line-height: normal;
+    *overflow: visible;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2a394e;
+    background: #fffbf5;
+}
+
+footer .block {
+    margin: 100px 0;
+}
+
+footer ol {
+    float: left;
+    width: 20%;
+}
+
+footer ol.large {
+    width: 40%;
+}
+
+footer ol li {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+footer ol li a,
+footer ol li p,
+footer ol li button {
+    font-size: 14px;
+    line-height: 24px;
+    color: #2a394e;
+}
+
+footer ol li a em,
+footer ol li p em,
+footer ol li button em {
+    color: #a5b3be;
+}
+
+footer ol li button {
+    padding: 0;
+    border: none;
+    background: none;
+    color: #2a394e;
+    text-align: left;
+}
+
+footer ol li button:hover {
+    color: #f55347;
+    text-decoration: underline;
+}
+
+footer ol li a {
+    float: left;
+    width: 100%;
+}
+
+footer ol li a.active,
+footer ol li a:hover {
+    color: #f55347;
+    text-decoration: underline;
+}
+
+footer h5 {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #2a394e;
+    margin: 0 0 10px 0;
+    height: 32px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+footer h5.buzz {
+    float: left;
+    width: 32px;
+    height: 32px;
+    background: #2a394e;
+    text-indent: -1000px;
+    overflow: hidden;
+    padding: 0;
+    cursor: pointer;
+    -webkit-mask: url(../svg/bee.svg) center no-repeat;
+    mask: url(../svg/bee.svg) center no-repeat;
+    -webkit-mask-size: 100% auto;
+    mask-size: 100% auto;
+}
+
+footer h6 {
+    float: left;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #2a394e;
+    margin: 0 0 10px 0;
+    height: 32px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    clear: both;
+}
+
+header .block {
+    text-align: left;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+header a.logomain {
+    float: left;
+    width: 250px;
+    height: 50px;
+    color:#2a394e;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    overflow: hidden;
+    font-size: 25px;
+    transition: background 0.2s ease;
+}
+
+header a.logomain:hover {
+    color: #f55347;
+}
+header ol {
+    float: right;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+header ol li {
+    margin-left: 30px;
+    position: relative;
+}
+
+header ol li a,
+header ol li span {
+    color: #2a394e;
+    padding: 2px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #14243c;
+    letter-spacing: 0.15px;
+    font-weight: 500;
+}
+
+header ol li a.active,
+header ol li span.active {
+    font-weight: 700;
+    border-bottom: 3px solid #f55347;
+}
+
+header ol li a:hover,
+header ol li span:hover {
+    text-decoration: none;
+    color: #f55347;
+}
+
+header ol li a.not-available,
+header ol li span.not-available {
+    color: #a5b3be;
+    text-decoration: line-through;
+}
+
+header ol li.active a.dropDown {
+    font-weight: 700;
+    color: #f55347;
+}
+
+header ol li.active a.active {
+    border-bottom-color: transparent;
+}
+
+header ol li hr {
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+    height: 10px;
+    background: #ffdc00;
+    -webkit-mask: url('_assets/svg/wavy-line.svg') center no-repeat;
+    mask: url('_assets/svg/wavy-line.svg') center no-repeat;
+    border: 0;
+}
+
+header ol li ul {
+    float: left;
+    margin-top: 15px;
+    top: 100%;
+    right: calc(-75%);
+    position: absolute;
+    border: 2px solid #f55347;
+    background: white;
+    padding: 25px 0;
+    width: 250px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 5px #fffbf5;
+    display: none;
+    text-align: center;
+    z-index: 100;
+}
+
+header ol li ul.show {
+    display: block;
+}
+
+header ol li ul li {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+header ol li ul li span.divide {
+    z-index: -1;
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    background: #ffdc00;
+    text-indent: -1000px;
+    overflow: hidden;
+    margin: 20px 0;
+    transform: rotate(-4deg);
+}
+
+header ol li ul li a,
+header ol li ul li span {
+    float: left;
+    width: 100%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+}
+
+header ol li ul li a.active,
+header ol li ul li span.active {
+    border: none;
+    color: #f55347;
+}
+
+header,
+footer {
+    margin: 0px auto;
+    width: 800px;
+}
+
+.block {
+    float: left;
+    width: 100%;
+}
+
+.text section {
+    width: 100%;
+    clear: both;
+    margin: 0 0 50px 0;
+}
+
+.text section h1,
+.text section h2,
+.text section h3,
+.text section h4,
+.text section h5,
+.text section ol,
+.text section p,
+.text section pre,
+.text section figure {
+    margin: 0px auto;
+    width: 800px;
+}
+
+.text section h1 {
+    box-sizing: border-box;
+    padding: 0 0 35px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #14243c;
+    clear: both;
+}
+
+.text section h1 div.wave {
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    text-indent: -9000px;
+    background: url('_assets/svg/wavy.svg') left center no-repeat;
+}
+
+.text section h2 {
+    margin-top: 80px;
+    padding: 0 0 40px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #14243c;
+}
+
+.text section h2.narrow {
+    margin-top: 40px;
+}
+
+.text section h2.nospace {
+    margin-top: 20px;
+}
+
+.text section h3,
+.text section h4,
+.text section h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #14243c;
+}
+
+.text section .fancy {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: #14243c;
+}
+
+.text section .breakout {
+    width: 90%;
+    max-width: 1600px;
+    min-height: 150px;
+    background: black;
+    margin: 0px auto;
+    padding: 150px 0;
+    border-radius: 6px;
+    position: relative;
+}
+
+.text section .breakout .quote-contents {
+    margin: 0px auto;
+    width: 650px;
+}
+
+.text section .breakout .quote {
+    display: none;
+    transition: all 0.2s ease-out;
+}
+
+.text section .breakout a.next {
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background-color: white;
+    right: 0;
+    top: 0;
+    -webkit-mask: url('../svg/arrow-right.svg') center no-repeat;
+    mask: url('../svg/arrow-right.svg') center no-repeat;
+}
+
+.text section .breakout h4 {
+    clear: both;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: white;
+}
+
+.text section .breakout h4 a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid white;
+}
+
+.text section .breakout h4 a:hover {
+    color: white;
+}
+
+.text section .breakout blockquote {
+    float: left;
+    width: 100%;
+    font-family: 'Fraunces', serif;
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 0 20px;
+    position: relative;
+}
+
+.text section .breakout blockquote em.outdent {
+    position: absolute;
+    top: -10px;
+    right: 100%;
+    padding: 0 5px 0 0;
+    text-align: right;
+    font-size: 60px;
+}
+
+.text section .breakout blockquote.small {
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.text section .breakout.purple {
+    background: #874bf7;
+}
+
+.text section .breakout.purple h4 {
+    color: #ffdc00;
+}
+
+.text section .breakout.blue {
+    background: #155257;
+}
+
+.text section .breakout.blue h4 {
+    color: #e6f5f0;
+}
+
+.text section .breakout.red {
+    background: #f55347;
+}
+
+.text section .breakout.red h4 {
+    color: #ffdc00;
+}
+
+.text section ol.video {
+    display: flex;
+    max-width: 650px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.text section ol.video li {
+    width: 50%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: all 0.2s;
+}
+
+.text section ol.video li:nth-child(even) {
+    padding-left: 5px;
+}
+
+.text section ol.video li:nth-child(odd) {
+    padding-right: 5px;
+}
+
+.text section ol.video li a {
+    float: left;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: white;
+    padding: 5px;
+    border: 2px solid #ffe7c2;
+    border-radius: 6px;
+    transition: all 0.2s ease-out;
+}
+
+.text section ol.video li a:hover {
+    border-color: #f55347;
+}
+
+.text section ol.video li .caption {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 20px 0 20px;
+    font-size: 13px;
+    color: #a5b3be;
+    line-height: 22px;
+}
+
+.text section ol.video li .caption .date {
+    font-weight: 500;
+    color: #f55347;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.text section ol.video li .caption strong {
+    float: left;
+    width: 100%;
+    margin: 3px 0 10px;
+    color: #2a394e;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text section ol.video li img {
+    float: left;
+    margin: 0;
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+.text section ol.video:hover li {
+    opacity: 0.2;
+}
+
+.text section ol.video:hover li:hover {
+    opacity: 1;
+    transform: scale(1.04);
+}
+
+.text section ol.imgGrid {
+    display: flex;
+    clear: both;
+    width: 650px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.text section ol.imgGrid.threecol li {
+    width: 33%;
+}
+
+.text section ol.imgGrid.twocol {
+    flex-wrap: wrap;
+}
+
+.text section ol.imgGrid.twocol li {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.text section ol.imgGrid li {
+    margin: 0;
+    box-sizing: border-box;
+    background: white;
+    padding: 5px;
+    border: 2px solid #ffe7c2;
+    border-radius: 6px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.text section ol.imgGrid li:last-child {
+    margin-right: 0;
+}
+
+.text section ol.imgGrid li img {
+    float: left;
+    width: 100%;
+    margin: 0;
+    border-radius: 3px;
+}
+
+.text section ol.imgGrid li:hover {
+    border-color: #f55347;
+}
+
+.text section ol.written {
+    width: 650px;
+    padding-bottom: 200px;
+}
+
+.text section ol.written li .row,
+.text section ol.written li a {
+    float: left;
+    width: 100%;
+    color: #f55347;
+    padding: 20px 0;
+    border-bottom: 2px solid #ffe7c2;
+    line-height: 22px;
+}
+
+.text section ol.written li .row strong,
+.text section ol.written li a strong {
+    font-weight: 500;
+    color: #2a394e;
+    text-decoration: underline;
+}
+
+.text section ol.written li a:hover {
+    text-decoration: none;
+}
+
+.text section ol.written li a:hover strong {
+    color: #f55347;
+}
+
+.text section ol.written li:last-child a {
+    border-bottom: 0;
+    margin-bottom: 100px;
+}
+
+.text section h1,
+.text section h2,
+.text section h3 {
+    width: 650px;
+    clear: both;
+}
+
+.text section hr {
+    border: none;
+    height: 10px;
+    width: 200px;
+    background: #f55347;
+    -webkit-mask: url('_assets/svg/wavy-line.svg') center no-repeat;
+    mask: url('_assets/svg/wavy-line.svg') center no-repeat;
+}
+
+.text section hr.wide {
+    padding: 60px 0;
+}
+
+.text section .divider {
+    position: relative;
+    padding-top: 100px;
+}
+
+.text section .divider:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 10px;
+    background: #f55347;
+    -webkit-mask: url('_assets/svg/wavy-line.svg') center no-repeat;
+    mask: url('_assets/svg/wavy-line.svg') center no-repeat;
+    top: 0;
+    left: 0;
+}
+
+.text section .divider.under {
+    padding-top: 0;
+}
+
+.text section .divider.under:before {
+    width: 78px;
+    top: auto;
+    bottom: -20px;
+    -webkit-mask: url('_assets/svg/wavy-line.svg') left center no-repeat;
+    mask: url('_assets/svg/wavy-line.svg') left center no-repeat;
+}
+
+.text section .divider.purple:before {
+    background: #874bf7;
+}
+
+.text section .divider.yellow:before {
+    background: #ffdc00;
+}
+
+.text section .divider.accent:before {
+    background: #f55347;
+}
+
+.text section p,
+.text section pre,
+.text section ol.inline {
+    width: 650px;
+    padding: 0 150px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    line-height: 32px;
+    color: #2a394e;
+}
+
+.text section p.lead,
+.text section pre.lead,
+.text section ol.inline.lead {
+    font-size: 18px;
+    line-height: 35px;
+    color: #14243c;
+}
+
+.text section p.lead strong,
+.text section pre.lead strong,
+.text section ol.inline.lead strong {
+    font-weight: 500;
+}
+
+.text section p.spaceup,
+.text section pre.spaceup,
+.text section ol.inline.spaceup {
+    margin-top: 60px;
+}
+
+.text section p a,
+.text section pre a,
+.text section ol.inline a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.text section p a:hover,
+.text section pre a:hover,
+.text section ol.inline a:hover {
+    color: #f55347;
+}
+
+.text section p a.loud,
+.text section pre a.loud,
+.text section ol.inline a.loud {
+    font-weight: 500;
+    color: #14243c;
+    text-decoration: none;
+    position: relative;
+    z-index: 2;
+}
+
+.text section p a.loud::before,
+.text section pre a.loud::before,
+.text section ol.inline a.loud::before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #ffdc00;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.2s;
+}
+
+.text section p a.loud:hover::before,
+.text section pre a.loud:hover::before,
+.text section ol.inline a.loud:hover::before {
+    height: 10px;
+    bottom: -2px;
+}
+
+.text section p.rate,
+.text section pre.rate,
+.text section ol.inline.rate,
+.text section p span.rate,
+.text section pre span.rate,
+.text section ol.inline span.rate {
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.text section p.rate strong,
+.text section pre.rate strong,
+.text section ol.inline.rate strong,
+.text section p span.rate strong,
+.text section pre span.rate strong,
+.text section ol.inline span.rate strong {
+    color: #14243c;
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.text section p.rate strong::before,
+.text section pre.rate strong::before,
+.text section ol.inline.rate strong::before,
+.text section p span.rate strong::before,
+.text section pre span.rate strong::before,
+.text section ol.inline span.rate strong::before {
+    content: '';
+    width: 100%;
+    background: #ffdc00;
+    position: absolute;
+    height: 6px;
+    bottom: -1px;
+    left: 0;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.text section p.rate sup,
+.text section pre.rate sup,
+.text section ol.inline.rate sup,
+.text section p span.rate sup,
+.text section pre span.rate sup,
+.text section ol.inline span.rate sup {
+    font-size: 13px;
+}
+
+.text section p.rate em,
+.text section pre.rate em,
+.text section ol.inline.rate em,
+.text section p span.rate em,
+.text section pre span.rate em,
+.text section ol.inline span.rate em {
+    font-size: 13px;
+    color: #a5b3be;
+}
+
+.text section p.rate a,
+.text section pre.rate a,
+.text section ol.inline.rate a,
+.text section p span.rate a,
+.text section pre span.rate a,
+.text section ol.inline span.rate a {
+    display: inline-block;
+    background: white;
+    border: 2px solid #874bf7;
+    text-decoration: none;
+    padding: 18px 20px 16px;
+    margin: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+.text section p.rate a:hover,
+.text section pre.rate a:hover,
+.text section ol.inline.rate a:hover,
+.text section p span.rate a:hover,
+.text section pre span.rate a:hover,
+.text section ol.inline span.rate a:hover {
+    color: #874bf7;
+}
+
+.text section p.rate.spaceup-narrow,
+.text section pre.rate.spaceup-narrow,
+.text section ol.inline.rate.spaceup-narrow,
+.text section p span.rate.spaceup-narrow,
+.text section pre span.rate.spaceup-narrow,
+.text section ol.inline span.rate.spaceup-narrow {
+    margin-top: 0px;
+}
+
+.text section .callout {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.text section .callout p {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #874bf7;
+    box-shadow: 0 4px 0 1px #f6f1fe;
+    width: 580px;
+    padding: 40px;
+    font-size: 16px;
+    line-height: 35px;
+    color: #14243c;
+}
+
+.text section .callout p strong {
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #874bf7;
+}
+
+.text section .callout.red p {
+    border-color: #f55347;
+    box-shadow: 0 4px 0 1px #feedeb;
+}
+
+.text section .callout.red p strong {
+    color: #f55347;
+}
+
+.text section .callout.blue p {
+    border-color: #155257;
+    box-shadow: 0 4px 0 1px #e4eded;
+}
+
+.text section .callout.blue strong {
+    color: #155257;
+}
+
+.text section ol.inline li {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    line-height: 32px;
+    color: #2a394e;
+    box-sizing: border-box;
+    padding: 0 0 0 20px;
+    position: relative;
+}
+
+.text section ol.inline li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+    width: 4px;
+    height: 4px;
+    overflow: hidden;
+    background: #f55347;
+    border-radius: 100px;
+}
+
+.text section figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.text section figure img {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+}
+
+.text section figure.spaceup {
+    margin-top: 20px;
+}
+
+.text section figure.spaceup-narrow {
+    margin-top: -50px;
+}
+
+.text section figure.leadImg {
+    margin-bottom: 80px;
+    width: 55%;
+    min-width: 800px;
+    max-width: 1500px;
+}
+
+.text section figure.fingerpainting {
+    background: #ffdc00;
+    border-radius: 8px;
+    padding: 30px 0;
+}
+
+.text section figure.fingerpainting img {
+    width: auto;
+    max-height: 375px;
+}
+
+.text section figure .caption {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+    background: #ffdc00;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0;
+    transition: all 0.15s;
+    transform: translateY(30px);
+}
+
+.text section figure.photo {
+    cursor: cell;
+    position: relative;
+    overflow: hidden;
+}
+
+.text section figure.photo:hover .caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+html.dark {
+    background: #2a394e;
+    color: #fffbf5;
+}
+
+html.dark body {
+    background: #2a394e;
+    color: #fffbf5;
+}
+
+html.dark body header a.logomain {
+    color: white;
+}
+
+html.dark body header a.logomain:hover {
+    color: #ffdc00;
+}
+
+
+header a.logomain2 {
+    float: left;
+    width: 250px;
+    height: 50px;
+    color:#212d3d;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    overflow: hidden;
+    font-size: 25px;
+    transition: background 0.2s ease;
+}
+
+header a.logomain2:hover {
+    color: #f55347;
+}
+
+header a.logomain3 {
+    float: left;
+    width: 250px;
+    height: 50px;
+    color:#212d3d;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    overflow: hidden;
+    font-size: 25px;
+    transition: background 0.2s ease;
+}
+
+header a.logomain3:hover {
+    color: #f55347;
+}
+
+html.dark body header ol li a {
+    color: #fffbf5;
+}
+
+html.dark body header ol li a:hover {
+    color: #ffdc00;
+}
+
+html.dark body header ol li a.active {
+    color: white;
+}
+
+html.dark body header ol li a.active:hover {
+    color: #ffdc00;
+}
+
+html.dark body header ol li ul {
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+html.dark body header ol li ul li a {
+    color: #2a394e;
+}
+
+html.dark body header ol li ul li a.active {
+    color: #f55347;
+}
+
+html.dark body header ol li ul li a.active:hover {
+    color: #f55347;
+}
+
+html.dark body header ol li ul li a:hover {
+    color: #f55347;
+}
+
+html.dark body .text section h1,
+html.dark body .text section h2,
+html.dark body .text section h3,
+html.dark body .text section h4,
+html.dark body .text section h5,
+html.dark body .text section p,
+html.dark body .text section pre,
+html.dark body .text section ol,
+html.dark body .text section ul,
+html.dark body .text section figure,
+html.dark body .text section blockquote,
+html.dark body .text section ol.inline li {
+    color: #fffbf5;
+}
+
+html.dark body .text section h1,
+html.dark body .text section h2,
+html.dark body .text section h3,
+html.dark body .text section h4,
+html.dark body .text section h5 {
+    color: white;
+}
+
+html.dark body .text section hr {
+    background-color: #ffdc00;
+}
+
+html.dark body .text section .lead {
+    color: white;
+}
+
+html.dark body .text section figure.fingerpainting {
+    background: #14243c;
+}
+
+html.dark body .text section .loud {
+    color: white;
+}
+
+html.dark body .text section .loud:before {
+    background-color: #874bf7;
+}
+
+html.dark body .text section ol.inline li:before {
+    background: #ffdc00;
+}
+
+html.dark body .text section .fancy {
+    color: #ffdc00;
+}
+
+html.dark body .text section .callout p {
+    background: #212d3d;
+    box-shadow: none;
+    border-color: #155257;
+}
+
+html.dark body .text section .callout p strong {
+    color: #ffdc00;
+}
+
+html.dark body .text section .rate a {
+    background: #14243c;
+    border-color: #874bf7;
+}
+
+html.dark body .text section .rate a:hover {
+    color: #ffdc00;
+}
+
+html.dark body .text section .rate strong {
+    color: white;
+}
+
+html.dark body .text section .rate strong:before {
+    background-color: #874bf7;
+}
+
+html.dark body .text section ol.written .row,
+html.dark body .text section ol.written a {
+    border-bottom-color: #f55347;
+}
+
+html.dark body .text section ol.written .row strong,
+html.dark body .text section ol.written a strong {
+    color: white;
+}
+
+html.dark body .text section ol.written a:hover {
+    border-color: #ffdc00;
+}
+
+html.dark body .text section ol.written a:hover strong {
+    color: #ffdc00;
+}
+
+html.dark body .text section ol.video li a {
+    background: #14243c;
+    border-color: #2a394e;
+}
+
+html.dark body .text section ol.video li a strong {
+    color: white;
+}
+
+html.dark body footer h6,
+html.dark body footer p {
+    color: white;
+}
+
+html.dark body footer .buzz {
+    background-color: #fffbf5;
+}
+
+html.dark body footer a {
+    color: #fffbf5;
+}
+
+html.dark body footer a.active,
+html.dark body footer a:hover {
+    color: #ffdc00;
+}
+
+@media only screen and (max-width: 980px) {
+    body,
+    html {
+        overflow-x: hidden;
+    }
+    header,
+    footer,
+    .text section h1,
+    .text section h2,
+    .text section h3,
+    .text section h4,
+    .text section h5,
+    .text section p,
+    .text section pre,
+    .text section ol,
+    .text section figure,
+    .text section blockquote {
+        width: 80%;
+        min-width: 80% !important;
+        max-width: 80% !important;
+    }
+    .text section p,
+    .text section pre,
+    .text section ol.inline {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .text section .callout {
+        padding: 0 5%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .text section .callout p {
+        width: 100%;
+        margin: 0;
+        max-width: auto;
+        min-width: auto;
+    }
+    .text section figure,
+    .text section figure.midwidth {
+        width: 90%;
+    }
+    header .block {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    header a.home {
+        float: none;
+        display: inline-block;
+    }
+    header ol {
+        width: 100%;
+        justify-content: center;
+    }
+    header ol li:first-child {
+        margin-left: 0;
+    }
+    .text section .breakout {
+        width: 90%;
+        min-width: 90%;
+        padding: 80px 0 90px;
+    }
+    .text section .breakout .quote-contents {
+        width: 80%;
+    }
+    .text section .breakout .quote-contents blockquote em {
+        display: none;
+    }
+    .text section .breakout .quote-contents h4 {
+        margin-left: 0;
+    }
+    footer .block {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    footer ol {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    footer ol:last-child,
+    footer ol.large {
+        width: 100%;
+    }
+    footer ol button {
+        width: 100%;
+    }
+    footer ol.large {
+        margin-bottom: 0;
+    }
+    footer ol.large p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .text section ol.video li {
+        width: 100%;
+    }
+    .text section ol.video li:nth-child(even),
+    .text section ol.video li:nth-child(odd) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .text section .breakout {
+        padding-bottom: 130px;
+    }
+    .text section .breakout .quote-contents blockquote {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .text section .breakout .quote-contents h4 {
+        line-height: 18px;
+    }
+    .text section .breakout .quote-contents a.next {
+        float: left;
+        width: 100%;
+        position: relative;
+        height: 100px;
+        margin: 0;
+        -webkit-mask-position: left;
+        mask-position: left;
+    }
+    .text section ol.inline li {
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .text section ol.inline li:before {
+        margin: 0;
+        top: 10px;
+    }
+    header ol li ul {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        height: 100vh;
+        border: 20px solid #fffbf5;
+        box-shadow: inset 0 0 0 2px #f55347;
+        border-radius: 24px;
+        margin: 0;
+    }
+    header ol li ul.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    header ol li ul.show li {
+        width: 100%;
+    }
+    header ol li ul.show li a {
+        font-size: 16px;
+    }
+}
+
+.showcase {
+    float: left;
+    width: 100%;
+    margin: 80px 0 50px
+}
+
+.showcase section {
+    margin: 0 auto;
+    width: 100%
+}
+
+.showcase section h1 {
+    float: none;
+    width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: Montserrat, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 34px;
+    padding: 20px 25px 50px;
+    line-height: 62px;
+    transition: opacity .3s ease-out .5s, transform .3s ease-out .5s;
+    opacity: 1
+}
+
+.showcase .studies .case-study a .description p.link,
+.showcase .studies .case-study a .description p.title,
+.showcase section h2,
+
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+.showcase section ol.projects strong.title {
+    font-family: Raleway, sans-serif;
+    font-weight: 700
+}
+
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+.showcase section h1.when-loaded {
+    transform: translateY(50px);
+    opacity: 0
+}
+
+.showcase section h1 a {
+    color: inherit;
+    white-space: nowrap;
+    position: relative;
+    z-index: 10;
+    text-decoration: none
+}
+
+.showcase section h1 a::before {
+    content: '';
+    width: 100%;
+    height: 8px;
+    background: #4700d8;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 2px;
+    transition: all .2s;
+    -webkit-mask: url(../svg/wavy-line.svg) bottom repeat-x;
+    mask: url(../svg/wavy-line.svg) bottom repeat-x
+}
+
+.showcase section h1 a:hover {
+    color: #4700d8
+}
+
+.showcase section h1 a:hover::before {
+    bottom: -2px
+}
+
+.showcase section h2 {
+    width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 140px 25px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .5px;
+    color: #2a394e
+}
+
+/******sata********************************/
+
+.showcase section ol.projects {
+    clear: both;
+    width: 850px;
+    margin: 50px auto 0;
+    box-sizing: border-box;
+    padding: 0 100px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.showcase section ol.projects a,
+.showcase section ol.projects li {
+    float: left;
+    width: 100%
+}
+
+.showcase section ol.projects li {
+    width: 50%
+}
+
+.showcase section ol.projects a {
+    padding: 30px 0 40px;
+    text-decoration: none
+}
+
+.showcase section ol.projects strong.title {
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    color: #14243c;
+    margin: 0 0 15px
+}
+
+.showcase section ol.projects strong.title span {
+    position: relative;
+    z-index: 1;
+    white-space: nowrap
+}
+
+.showcase section ol.projects strong.title span::before {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all .2s
+}
+
+.showcase section ol.projects p {
+    width: 80%;
+    font-size: 16px;
+    color: #3c516f;
+    line-height: 28px
+}
+
+.showcase section ol.projects a:hover strong.title span::before {
+    height: 10px
+}
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+
+.showcase .studies {
+    width: 950px;
+    margin: 50px auto 0
+}
+
+.showcase .studies .case-study {
+    float: left;
+    width: 100%
+}
+
+.showcase .studies .case-study a {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center
+}
+
+.showcase .studies .case-study a .thumb {
+    min-height: 100%;
+    box-sizing: border-box
+}
+
+.showcase .studies .case-study a .thumb .img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px
+}
+
+.showcase .studies .case-study a .thumb .img.padded {
+    border-radius: 56px;
+    box-shadow: inset 0 0 0 50px #fff
+}
+
+.showcase .studies .case-study a .thumb .img img {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0
+}
+
+.showcase .studies .case-study a .description {
+    margin-top: -10px
+}
+
+.showcase .studies .case-study a .description p {
+    float: left;
+    width: 100%;
+    clear: both;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3c516f;
+    -webkit-font-smoothing: antialiased
+}
+
+.showcase .studies .case-study a .description p.title {
+    padding-right: 100px;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    color: #14243c
+}
+
+.showcase .studies .case-study a .description p.link {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #14243c
+}
+
+.showcase .studies .case-study a .description p.link span {
+    white-space: nowrap;
+    position: relative;
+    z-index: 10;
+    text-decoration: none
+}
+
+.showcase .studies .case-study a .description p.link span::before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #ffdc00;
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    z-index: -1;
+    transition: all .2s
+}
+
+.showcase .studies .case-study.large a {
+    height: 700px
+}
+
+.showcase .studies .case-study.large a .thumb {
+    min-width: 520px;
+    height: 700px
+}
+
+.showcase .studies .case-study.large a .description {
+    margin-left: 80px
+}
+
+.showcase .studies .case-study.large a .description p {
+    font-size: 18px;
+    line-height: 28px
+}
+
+.showcase .studies .case-study.large a .description p.title {
+    font-size: 32px;
+    line-height: 38px
+}
+
+.showcase .studies .case-study.popout a .thumb .img {
+    background: 0 0 !important
+}
+
+.showcase .studies .case-study.popout a .thumb .img img {
+    width: auto;
+    height: 100%
+}
+
+.showcase .studies .case-study.text-left a {
+    flex-flow: row-reverse
+}
+
+.showcase .studies .case-study.text-left.large a .description {
+    margin-left: 50px;
+    margin-right: 80px
+}
+
+.showcase .studies .case-study.text-left.large a .description p.title {
+    padding: 0
+}
+
+.showcase .studies .case-study.medium {
+    width: 850px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px
+}
+
+.showcase .studies .case-study.medium a {
+    min-height: 395px
+}
+
+.showcase .studies .case-study.medium a .thumb {
+    min-width: 395px;
+    height: 395px
+}
+
+.showcase .studies .case-study.medium a .description {
+    margin-left: 100px
+}
+
+.showcase .studies .case-study.space-up {
+    margin-top: 65px
+}
+
+.showcase .studies .case-study.space-down {
+    margin-bottom: 80px
+}
+
+.showcase .studies .case-study.space-up-small {
+    margin-top: 20px
+}
+
+.showcase .studies .case-study:hover .description p.title {
+    text-decoration: underline
+}
+
+.showcase .studies .case-study:hover .description p.link span::before {
+    height: 8px
+}
+
+.showcase section ol.projects li a.green strong.title span::before {
+    background-color: #9fe6a0
+}
+
+.showcase section ol.projects li a.purple strong.title span::before {
+    background-color: #dab9ee
+}
+
+.showcase section ol.projects li a.pink strong.title span::before {
+    background-color: #f6c6ea
+}
+
+.showcase section ol.projects li a.blue strong.title span::before {
+    background-color: #a2dbfa
+}
+
+.showcase section ol.projects li a.grey strong.title span::before {
+    background-color: #c3cbd5
+}
+
+.showcase section ol.projects li a.red strong.title span::before {
+    background-color: #fbb3c4
+}
+
+.showcase section ol.projects li a.yellow strong.title span::before {
+    background-color: #ffe66e
+}
+
+.showcase section ol.projects li a.orange strong.title span::before {
+    background-color: #ffc074
+}
+
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+
+.showcase section .studies .case-study a.green .thumb .img {
+    background: #cff3d0
+}
+
+.showcase section .studies .case-study a.green .description .link span::before {
+    background: #9fe6a0
+}
+
+.showcase section .studies .case-study a.purple .thumb .img {
+    background: #ecdcf6
+}
+
+.showcase section .studies .case-study a.purple .description .link span::before {
+    background: #dab9ee
+}
+
+.showcase section .studies .case-study a.pink .thumb .img {
+    background: #fbe3f5
+}
+
+.showcase section .studies .case-study a.pink .description .link span::before {
+    background: #f6c6ea
+}
+
+.showcase section .studies .case-study a.blue .thumb .img {
+    background: #d1edfd
+}
+
+.showcase section .studies .case-study a.blue .description .link span::before {
+    background: #a2dbfa
+}
+
+.showcase section .studies .case-study a.grey .thumb .img {
+    background: #e1e5ea
+}
+
+.showcase section .studies .case-study a.grey .description .link span::before {
+    background: #c3cbd5
+}
+
+.showcase section .studies .case-study a.red .thumb .img {
+    background: #fdd9e2
+}
+
+.showcase section .studies .case-study a.red .description .link span::before {
+    background: #fbb3c4
+}
+
+.showcase section .studies .case-study a.yellow .thumb .img {
+    background: #fff3b7
+}
+
+.showcase section .studies .case-study a.yellow .description .link span::before {
+    background: #ffe66e
+}
+
+.showcase section .studies .case-study a.orange .thumb .img {
+    background: #ffe0ba
+}
+
+.showcase section .studies .case-study a.orange .description .link span::before {
+    background: #ffc074
+}
+
+.showcase section .studies .case-study a:hover.green .description p.title {
+    text-decoration-color: #9fe6a0
+}
+
+.showcase section .studies .case-study a:hover.purple .description p.title {
+    text-decoration-color: #dab9ee
+}
+
+.showcase section .studies .case-study a:hover.pink .description p.title {
+    text-decoration-color: #f6c6ea
+}
+
+.showcase section .studies .case-study a:hover.blue .description p.title {
+    text-decoration-color: #a2dbfa
+}
+
+.showcase section .studies .case-study a:hover.grey .description p.title {
+    text-decoration-color: #c3cbd5
+}
+
+.showcase section .studies .case-study a:hover.red .description p.title {
+    text-decoration-color: #fbb3c4
+}
+
+.showcase section .studies .case-study a:hover.yellow .description p.title {
+    text-decoration-color: #ffe66e
+}
+
+.showcase section .studies .case-study a:hover.orange .description p.title {
+    text-decoration-color: #ffc074
+}
+
+@media only screen and (max-width:980px) {
+    footer,
+    header .block {
+        width: 80%;
+        min-width: 80% !important
+    }
+    .showcase section,
+    footer,
+    header .block {
+        min-width: 80% !important
+    }
+    .showcase section .studies .case-study#workflows span.img::before,
+    .showcase section h1 br,
+    footer ol.large p {
+        display: none
+    }
+    .showcase section,
+    .text section {
+        float: none;
+        max-width: 80% !important
+    }
+    .showcase section,
+    .text section,
+    footer,
+    header .block {
+        max-width: 80% !important
+    }
+
+    .showcase section {
+        margin: 0 auto;
+        width: 80%
+    }
+    .showcase section h1,
+    .showcase section h2,
+
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+    .showcase section ol.projects {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        min-width: auto
+    }
+
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+    .showcase section h1 a::before {
+        bottom: -5px
+    }
+    .showcase section .studies .case-study.large a .thumb,
+    .showcase section .studies .case-study.medium a .thumb {
+        min-width: 50%;
+        height: auto
+    }
+    .showcase section .studies {
+        width: 100%
+    }
+    .showcase section .studies .case-study {
+        margin: 0 0 50px
+    }
+    .showcase section .studies .case-study.popout a .thumb .img img {
+        width: 100%;
+        height: auto
+    }
+    .showcase section .studies .case-study.large a {
+        height: auto
+    }
+    .showcase section .studies .case-study.large a .description {
+        margin-left: 50px
+    }
+    .showcase section .studies .case-study.medium {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0
+    }
+    .showcase section .studies .case-study.medium a {
+        min-height: auto
+    }
+    .showcase section .studies .case-study.medium a .description {
+        margin-left: 50px
+    }
+    .showcase section .studies .case-study.medium a .thumb .img img {
+        height: 120% !important
+    }
+    .showcase section .studies .case-study a:hover::after {
+        opacity: 0
+    }
+@media only screen and (min-width:1700px) {
+    .showcase section ol.tiles li {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1010px;
+        height: 568px;
+        padding: 0
+    }
+}
+
+    .showcase section h1 {
+        font-size: 30px;
+        line-height: 55px
+    }
+    .showcase section h2 {
+        padding-top: 40px
+    }
+    .showcase section ol {
+        margin-top: 40px
+    }
+
+
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+    .showcase section ol.projects li {
+        width: 100%
+    }
+    .showcase section ol.projects li a {
+        padding: 25px 0
+    }
+    .showcase section ol.projects li a p {
+        width: 90%
+    }
+
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+/******************************start**********************/
+
+
+
+    .showcase section .studies .case-study a {
+        flex-flow: column !important
+    }
+    .showcase section .studies .case-study a .thumb .img.padded {
+        box-shadow: none;
+        border-radius: 6px
+    }
+    .showcase section .studies .case-study a .description {
+        margin: 30px 0 0 !important
+    }
+    .showcase section .studies .case-study a .description p.title {
+        padding: 0 50px 0 0;
+        font-size: 24px !important;
+        line-height: 30px !important;
+        margin-bottom: 10px !important
+    }
+    .showcase section .studies .case-study a .description p {
+        font-size: 16px !important;
+        line-height: 28px !important
+    }
+    .showcase section .studies .case-study.space-down {
+        margin-bottom: 40px
+    }
+    .showcase,
+    .text {
+        margin-top: 60px
+    }
+
+
+
+
+
+
+

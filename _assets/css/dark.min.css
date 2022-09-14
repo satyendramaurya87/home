@@ -1,0 +1,463 @@
+
+@import url(//db.onlinewebfonts.com/c/3c18bedf01697f1bc265e88a5ec2884c?family=Blues+Anthem);
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html :target a.anchor {
+    background-color: #f10086 !important
+}
+
+html ::selection {
+    background: #4700d8
+}
+
+html ::-moz-selection {
+    background: #4700d8
+}
+
+html html,
+html html.coaching,
+html html.coaching body:before {
+    background: #231955
+}
+
+html body,
+html.coaching body {
+    background: #231955;
+    color: #ecdbba
+}
+
+html header a.logomain {
+    color: #ecdbba;
+}
+
+html header a.logomain:hover {
+    color:  #f10086;
+}
+
+html header a.menuIcon,
+html header a.menuIcon.fixed {
+    background: #231955
+}
+
+html header a.menuIcon div::before,
+html header a.menuIcon.open div::after,
+html header a.menuIcon:hover div::after {
+    background: #ecdbba
+}
+
+html header a.menuIcon div {
+    border-top-color: #ecdbba;
+    border-bottom-color: #ecdbba
+}
+
+html header a.menuIcon:hover div {
+    border-color: transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent
+}
+
+html header a.menuIcon.open div {
+    border-color: transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent
+}
+
+html header .siteNav {
+    background: #231955
+}
+
+html header .siteNav::after {
+    background: #210459 !important
+}
+
+html .showcase h1 a::before,
+html header .siteNav ul li a span::before,
+html header .siteNav ul li a.active span::before {
+    background-color: #f10086
+}
+
+html header .siteNav ul li a {
+    color: #ecdbba
+}
+
+html .showcase h1 a:hover,
+html header .siteNav ul li.divider {
+    color: #f10086
+}
+
+html header .siteNav a.theme {
+    background: #f10086
+}
+
+html header .siteNav a.theme::before {
+    left: 30px
+}
+
+html header .siteNav a.theme:active::before {
+    left: 20px
+}
+
+html .showcase section h1 {
+    color: #eee
+}
+
+html .showcase section h2 {
+    color: #ecdbba
+}
+
+html .showcase .studies .case-study a .description p {
+    color: #ffe3d8
+}
+
+html .showcase .studies .case-study a .description p.link span,
+html .showcase .studies .case-study a .description p.title {
+    color: #ecdbba
+}
+
+html .showcase .studies .case-study a .description p.link span::before {
+    height: 2px;
+    bottom: -3px
+}
+
+html .showcase .studies .case-study {
+    position: relative
+}
+
+html .showcase .studies .case-study .description,
+html .showcase .studies .case-study .thumb {
+    z-index: 2
+}
+
+html .showcase .studies .case-study a:hover::after {
+    content: '';
+    position: absolute;
+    left: -10%;
+    top: 10%;
+    width: 120%;
+    height: 80%;
+    background: #210459;
+    z-index: 0;
+    border-radius: 20px
+}
+
+html .showcase .studies .case-study a:hover p.link span {
+    color: #eee
+}
+
+html .showcase .studies .case-study a:hover p.link span::before {
+    height: 2px !important;
+    bottom: -3px
+}
+
+html .showcase .studies .case-study a .thumb .img.padded {
+    box-shadow: inset 0 0 0 50px #231955;
+    border-radius: 0
+}
+
+html .showcase .studies .case-study a.grey .thumb .img {
+    background: 0 0
+}
+
+html .showcase .studies .case-study#workflows span.img {
+    position: relative
+}
+
+html .showcase .studies .case-study#workflows span.img img {
+    position: relative;
+    z-index: 2
+}
+
+html .showcase .studies .case-study#workflows span.img::before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    width: 355px;
+    height: 345px;
+    top: -42px;
+    left: 20px;
+    z-index: 1;
+    border-radius: 10px
+}
+
+html .showcase section ol.projects strong.title {
+    color: #ecdbba
+}
+
+html .showcase section ol.projects strong.title span::before {
+    height: 2px;
+    bottom: -4px
+}
+
+html .showcase section ol.projects p {
+    color: #c4b6b6
+}
+
+html .showcase section ol.projects a:hover strong.title span::before {
+    height: 2px;
+    bottom: -6px
+}
+
+html .showcase section ol.projects a:hover p {
+    color: #ecdbba
+}
+
+html footer h5.buzz {
+    background-color: #ecdbba
+}
+
+html footer h6 {
+    color: #ffe3d8
+}
+
+html footer ol li a,
+html footer ol li a em,
+html footer ol li button,
+html footer ol li button em,
+html footer ol li p,
+html footer ol li p em {
+    color: #c4b6b6
+}
+
+html footer ol li a:hover {
+    color: #f10086
+}
+
+html .text section h1,
+html .text section h2,
+html .text section h4 {
+    color: #eee
+}
+
+html .text section h1 span::before {
+    height: 4px
+}
+
+html .text section h2 a.anchor {
+    background-color: #f10086
+}
+
+html .text section h2 a.anchor:hover {
+    background-color: #ffdc00
+}
+
+html .text section h4 .accent {
+    color: #f10086
+}
+
+html .text section h4 .accent::before {
+    background: #ffdc00;
+    height: 3px;
+    bottom: -4px
+}
+
+html .text section p a.loud::before,
+html .text section p a.loud:hover::before,
+html .text section p a.next strong::before,
+html .text section p a.next:hover strong::before {
+    height: 2px
+}
+
+html .text section ol.caption,
+html .text section p.caption {
+    color: #c4b6b6
+}
+
+html .text section ol.caption strong,
+html .text section p.caption strong {
+    color: #ffe3d8
+}
+
+html .text section ol.lead,
+html .text section p.lead {
+    color: #ecdbba
+}
+
+html .text section ol.lead strong,
+html .text section p.lead strong {
+    color: #eee
+}
+
+html .text section ol,
+html .text section p {
+    color: #c4b6b6
+}
+
+html .text section ol strong,
+html .text section p strong {
+    color: #ffe3d8;
+    -webkit-font-smoothing: antialiased
+}
+
+html .text section ol li:before,
+html .text section p li:before {
+    background: #f10086
+}
+
+html .text section ol li:after,
+html .text section p li:after {
+    background: #231955
+}
+
+html .text section ol li:hover,
+html .text section p li:hover {
+    background: #210459;
+    box-shadow: 0 0 0 10px #210459
+}
+
+html .text section ol li:hover:after,
+html .text section p li:hover:after {
+    background: #231955
+}
+
+html .text section p a:hover {
+    color: #f10086
+}
+
+html .text section p a.loud {
+    color: #ffdc00
+}
+
+html .text section hr {
+    background-color: #3ec70b
+}
+
+html .text section p a.next span {
+    color: #ffe3d8
+}
+
+html .text section p a.next strong {
+    color: #eee
+}
+
+html .text section .video-link {
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    background: #130d2e
+}
+
+html .text section .video-link a .thumb {
+    box-shadow: none
+}
+
+html .text section .video-link a .caption {
+    color: #c4b6b6
+}
+
+html .text section .video-link a .caption h6 {
+    color: #ecdbba
+}
+
+html .text section .breakout {
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    background: #210459
+}
+
+html .text section .breakout.codeblock {
+    background: #130d2e
+}
+
+html .text section .breakout h2 {
+    color: #ffdc00
+}
+
+html .text section .breakout p {
+    color: #ecdbba
+}
+
+html .text section .breakout a.button {
+    -webkit-font-smoothing: antialiased;
+    background: 0 0 !important
+}
+
+html .text section .breakout a.button:hover {
+    color: #f10086;
+    border-color: #f10086
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.photo:hover {
+    box-shadow: 0 0 0 4px #231955
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-1,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-2,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-3,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-4,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-5 {
+    background: 0 0
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-1 .cookie,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-2 .cookie,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-3 .cookie,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-4 .cookie,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-5 .cookie {
+    -webkit-mask-size: 110% auto
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-1:hover,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-2:hover,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-3:hover,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-4:hover,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.neon-5:hover {
+    transform: scale(1)
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card.pink {
+    background: #52057B
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card.green {
+    background: #892CDC
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card.purple {
+    background: #6A097D
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card.blue,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card.muted {
+    background: #590995
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card.neon-1 {
+    background-color: red !important
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card blockquote {
+    color: #ecdbba
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card blockquote em,
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card blockquote em.end {
+    color: #f10086
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card a span.type {
+    color: #ffdc00
+}
+
+html.coaching body .text.coach figure.carousel.extra-wide ul li.card a span.description {
+    color: #fff;
+    -webkit-font-smoothing: antialiased
+}
+
+ body header a.logomain1 {
+    color: white;
+}
+
+ body header a.logomain1:hover {
+    color: #ffdc00;
+}
+
+header ol li a{
+    color: #ecdbba;
+}
+
+
+header ol li a:hover {
+    color: #f55347;
+}
